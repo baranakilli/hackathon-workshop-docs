@@ -7,11 +7,11 @@ const config = {
   tagline: "Interactive MiniDapp Tutorial",
   favicon: "img/favicon.ico",
 
-  url: "https://your-minima-dapp-docs.example.com",
-  baseUrl: "/",
+  url: "https://baranakilli.github.io", // senin kullanıcı adın
+  baseUrl: "/hackathon-workshop-docs/", // repo adın
 
-  organizationName: "your-org", // GitHub kullanıcı veya organizasyon adı
-  projectName: "minima-helloworld-docs", // GitHub repo adı
+  organizationName: "baranakilli", // GitHub kullanıcı adın
+  projectName: "hackathon-workshop-docs", // repo adın
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -26,14 +26,15 @@ const config = {
       "classic",
       {
         docs: {
-          // Tek sayfalık yapı için sidebar'ı tamamen kapat
-          sidebarPath: false,
-          // Docs root seviyede yayınlanacak
+          // Re-enable sidebar
+          sidebarPath: require.resolve('./sidebars.js'),
+          // Keep docs at root level
           routeBasePath: "/",
           path: "docs",
           // İstersen bu kısmı kaldırabilirsin
           editUrl: "https://github.com/your-org/minima-helloworld-docs",
-          sidebarCollapsible: false,
+          // Enable sidebar collapsible
+          sidebarCollapsible: true,
         },
         blog: false, // Blog kullanılmıyor
         theme: {
