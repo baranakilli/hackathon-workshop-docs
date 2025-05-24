@@ -82,6 +82,25 @@ Bu adımlarla sıfırdan bugünkü blockchain sistemine ulaşıyoruz:
 
 ---
 
+## 🌟 Minima'nın Farkı Nedir?
+
+Pek çok blockchain sistemi büyük madencilik havuzlarına, yüksek işlem gücüne ve karmaşık altyapılara ihtiyaç duyar. Minima bu yaklaşımı tamamen değiştirir:
+
+* Minima'da herkes kendi cihazında küçük bir node çalıştırabilir.
+* Ağda bulunan herkes aynı zamanda bir **madenci** olur.
+* Bu sayede merkeziyetsizlik sadece bir ilke değil, **uygulanabilir bir gerçeklik** haline gelir.
+* Ağın güvenliği birkaç büyük oyuncuya değil, **katılan her bireye** yayılmış olur.
+
+Yani Minima, blockchain'in ilk vizyonuna –herkesin eşit katılımcı olduğu bir yapıya– en yakın sistemlerden biridir.
+
+Bu adımlarla sıfırdan bugünkü blockchain sistemine ulaşıyoruz:
+
+1. Tek kişinin yazmaması lazım → Onay sistemi lazım (İmza)
+2. Defterin güvenliği lazım → Herkes birer kopya tutsun (Dağıtık yapı)
+3. Geçmişi silememek lazım → Sayfaları birbirine bağlayalım (Hash + Zincir)
+
+---
+
 ## 🚀 Uygulama Zamanı: Minima Node'unu Çalıştır!
 
 MiniDapp geliştirmek için önce bilgisayarınızda Minima node'unu çalıştırmanız gerekiyor.
